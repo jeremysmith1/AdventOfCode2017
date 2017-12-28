@@ -5,6 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="One\OneInverseCaptcha.fs"/>
+    <Compile Include="Two\Checksum.fs" />
     <Compile Include="Program.fs"/>
   </ItemGroup>
   <ItemGroup>
@@ -14,5 +15,6 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.6.0-preview-20171211-02"/>
     <PackageReference Include="NUnit" Version="3.9.0"/>
     <PackageReference Include="NUnit3TestAdapter" Version="3.9.0"/>
+    <EmbeddedResource Include="Two\input.txt" />
   </ItemGroup>
 </Project>
