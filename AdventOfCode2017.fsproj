@@ -6,6 +6,7 @@
   <ItemGroup>
     <Compile Include="One\OneInverseCaptcha.fs"/>
     <Compile Include="Two\Checksum.fs" />
+    <Compile Include= "Three\SpiralMem.fs" />
     <Compile Include="Program.fs"/>
   </ItemGroup>
   <ItemGroup>
