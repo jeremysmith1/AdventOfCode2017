@@ -1,10 +1,10 @@
 ﻿open System
-open checksum
-open SpiralMem
+
+open HighEntropy
 
 [<EntryPoint>]
 let main argv =
-    Console.WriteLine (solve2 368078)
+    Console.WriteLine answer1
 
     printfn "Hello World from F#!"
     0 // return an integer exit code
